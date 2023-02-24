@@ -1,0 +1,43 @@
+
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    display:flex;
+    margin:0 auto;
+    justify-content: space-around;
+    width: 450px;
+    padding:20px;
+    color: #2b2839;
+    background: #ffccd5;
+    border-bottom: 8px solid #ff758f;
+    text-shadow: 1px 2px 2px #ff758f;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {background-color: #ff758f;}
+    25% {background-color: #ffccd5;}
+    50% {background-color: #ff758f;}
+    100% {background-color: #ffb3c1;}
+}
+
+.avatar {
+    margin-top: 10px;
+    width: 160px;
+    height: 160px;
+    border: 3px solid #ff8fa3;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+.center {
+    text-align: center;
+}
